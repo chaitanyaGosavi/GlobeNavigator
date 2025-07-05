@@ -6,10 +6,10 @@ const Product = () => {
   return (
 <div className="w-full h-full text-[#eef1f0]">
   <Navbar />
-  <div className="w-full px-4 md:w-[90%] lg:w-[70%] mx-auto my-10 flex flex-col lg:flex-row justify-center items-center gap-5 bg-[#213322c1] rounded-2xl py-6 lg:py-0">
+  <div className="w-full md:h-[70%] h-full px-4 md:w-[90%] lg:w-[70%] mx-auto my-10 flex flex-col lg:flex-row justify-center items-center gap-5 bg-[#213322c1] rounded-2xl py-6 lg:py-0">
     
     {/* Left Content */}
-    <div className="flex flex-1 h-full flex-col justify-center items-start gap-3 px-2 sm:px-6">
+    <div className="flex flex-1 md:h-full h-1/2 flex-col justify-center items-start gap-3 px-2 sm:px-6">
       <h1 className="text-2xl sm:text-3xl font-semibold leading-tight">
         Discover the World with GlobeNavigator
       </h1>
@@ -46,9 +46,9 @@ const Product = () => {
     </div>
 
     {/* Image Section */}
-    <div className="flex flex-1 w-full h-full">
+    <div className="flex flex-1 w-full md:h-full h-1/2">
       <img
-        className="w-full h-fit object-cover rounded-b-2xl lg:rounded-b-none lg:rounded-r-2xl"
+        className="w-full h-auto object-cover rounded-b-2xl lg:rounded-b-none lg:rounded-r-2xl"
         src="/Product-img.jpg"
         alt="Globe illustration"
       />
